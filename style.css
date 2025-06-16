@@ -1,0 +1,36 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fffdf7;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+.emoji-puzzle {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 80%;
+}
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.hint {
+  font-style: italic;
+  color: #555;
+}

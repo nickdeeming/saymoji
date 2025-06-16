@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SayMoji - Emoji Puzzle of the Day</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 SayMoji</h1>
+    <p class="tagline">Can you read the emojis?</p>
+
+    <div class="puzzle-container">
+      <h2 id="date"></h2>
+      <div id="emoji" class="emoji-puzzle">🧩</div>
+      <input type="text" id="guess" placeholder="Type your guess..." />
+      <button onclick="checkAnswer()">Submit</button>
+      <p id="feedback"></p>
+      <button onclick="showHint()">Need a hint?</button>
+      <p id="hint" class="hint"></p>
+    </div>
+  </div>
+
+  <script src="puzzles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
